@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando o iframe como expositor </title>
+</head>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: cornsilk;
+    }
+
+    .iframe-teste{
+        border: 3px solid black;
+        height: 400px;
+        width: 80vw;
+    }
+</style>
+<body>
+    <h1>Teste de expositor com iframe</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quae laborum quidem aliquid optio dolore eius enim illo aperiam? Aspernatur nobis nostrum maiores est. Voluptatum perspiciatis odit voluptas non recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe velit temporibus minima blanditiis ad dolorum iusto! Tenetur enim maiores eos sapiente consequuntur eveniet voluptatum, magnam amet voluptas. Maiores, facere.</p>
+    
+    <ul>
+        <li><a href="ifrmae-texte.html" target="1link">1 link</a></li>
+        <li><a href="">2 link</a></li>
+        <li><a href="#">3 link</a></li>
+    </ul>
+
+    <p>ao clicar no 1 link dentro do iframe ele me redireciona para o link para fazer isso é necessario onde tem ancora, é preciso por o target = igual o name dado no iframe</p>
+
+    <iframe name="1link" class="iframe-teste" srcdoc=" <h1>Escola uma das optio acima</h>" frameborder="0" ></iframe>
+    
+</body>
+</html>

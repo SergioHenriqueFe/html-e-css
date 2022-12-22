@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do iframe</title>
+</head>
+
+<style>
+    body{
+        background-color: darkmagenta;
+    }
+</style>
+<body>
+   <h1>Teste para a outra pagina</h1>
+   <!--Padrão do iframe width= 300 e height= 150-->
+   <div>
+       <p> esse foi o teste<iframe src="https://paletton.com/#uid=14H0u0kllllaFw0g0qFqFg0w0aF" frameborder="0" height="300" width="150"></iframe>  da caixa</p>
+       <!--no safari não funciona, o iframe é uma caixa de acesso ao site que foi posto no src, ou seja é um quadra com o site dentro em uma linha, porém não é todos os site que deixam fazer isso-->
+   </div>
+   <div>
+     <p> caso coloque o iframe não de certo
+        <iframe src="https://www.google.com/?client=safari" frameborder="0" height="500" width="500" ></iframe><a href="https://www.google.com/?client=safari">acesso o site aqui<a>
+            pode ser usado uma ancora
+     </p>
+   </div>
+    
+</body>
+</html>
