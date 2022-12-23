@@ -27,7 +27,7 @@ main{
     height: 100vh;
 }
 
-section#telefone{
+#telefone{
     position: absolute;
     top:50%;
     left: 50%;
@@ -38,3 +38,8 @@ section#telefone{
     width: 300px;
    
 }
+#home-conteudo{
+    position:absolute;
+    
+}
+
