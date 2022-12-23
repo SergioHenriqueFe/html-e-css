@@ -22,17 +22,18 @@ body{
 
 main{
     position:relative;
-    height: 100vh;
+    height: 84vh;
 }
 
 section#telefone{
+
     position: absolute;
-    top:50%;
+    top:57%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
-    height: 599px;
+    height: 627px;
     width: 311px;
     
    
