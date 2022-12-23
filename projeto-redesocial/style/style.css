@@ -3,18 +3,20 @@
 *{
     margin:0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 html, body{
     height: 100vh;
     width: 100vw;
-    background-color: #121719;
+    background-color: #1c2327;
 }
 body{
-    background-image: url(../imagens/background-teste2.png);
+    background-image: url(../imagens/background-teste4.png);
+    background-position: top center;
+    background-size: cover;
     background-repeat: no-repeat;
-   background-size: 100% 100%;
-   background-attachment:fixed;
+    background-attachment:fixed;
    
    
   
@@ -22,19 +24,17 @@ body{
 
 main{
     position:relative;
-    height: 84vh;
+    height: 100vh;
 }
 
 section#telefone{
-
     position: absolute;
-    top:57%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url('../imagens/frame-iphone.png');
+    background-image: url('../imagens/frame-iphone-semfudo.png');
     background-repeat: no-repeat;
-    height: 627px;
-    width: 311px;
-    
+    height: 500px;
+    width: 300px;
    
 }
