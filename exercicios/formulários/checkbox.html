@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Radio buttom</title>
+</head>
+<body>
+    <form method="post" autocomplete="off">
+       
+        <fieldset>
+            <legend> Sexo</legend>
+            <div>
+                    <label for="sximasc"></label>
+                    <input type="radio" name="sexo" id="sximasc"> Masculino
+                    <label for="sexifem"></label>
+                    <input type="radio" name="sexo" id="sexifem"> Feminino
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos </legend>
+            <div>
+                <label for="ifutebol">
+                    <input type="checkbox" name="futebol" id="ifutebol" > Futebol
+                </label>
+                <label for="ibasquete">
+                    <input type="checkbox" name="basquete" id="ibasquete"> Basquete
+                </label>
+                <input type="checkbox" name="volei" id="ivolei"> Volei  
+            </div>
+        </fieldset>
+
+        <label for="ifoto"></label> Insira sua foto, para a gente ver quém é você:  
+        <input type="file" name="foto" id="ifoto">   
+
+        <div calss="botoes">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar formulário">
+        </div>
+
+
+
+    </form>
+    
+</body>
+</html>
