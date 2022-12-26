@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+                <option value=""select>--Escolha--</option>
+                <option value="SP">São Paulo</option>
+                <optgroup label="Cidade maravilhosa">
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+            </select> <br>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="1stprof">
+            <datalist id="1stprof">
+                <option value="">Desenvolvedor </option>
+                <option value="">Caminhoneiro</option>
+            </detalist>
+
+
+        </div>
+        <div>
+            <label for="imsg">mensagem:</label> <br>    
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Escreva uma mensagem para nossa empresa te conhecer"></textarea >
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Formulário">
+        </div>
+    </form>
+</body>
+</html>
