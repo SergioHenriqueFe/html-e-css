@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <!-- o action do form é para colocar o lugar onde será enviado o formulário, ou seja, o banco de dados e o method post é para não aparecer as informações no url-->
+    <h1>formulalário</h1>
+    <form autocomplete="off" action="banco-dados.php" method="post" >
+
+    <p><label for="inome">Nome:</label>
+    <input type="text" name="nome" id="inome"></p>
+    <p><label for="isobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" id="isobrenome"></p>
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
