@@ -12,43 +12,50 @@ html, body{
     height: 100vh;
 }
 
-.material-symbols-outlined {
 
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-  padding:10px;
-  display:block;
-  text-align: center;
-  
-}
-.material-symbols-outlined:hover{
-    background-color:#CCF380;
-    text-shadow: 1px 1px 1px #231668;
-    cursor: pointer;
-    
-}
 
 header{
     width: 100vw;
-    background-color: #472DD5;
-    box-shadow: inset 0px 0px 10px  #3622A2;
+    background-color: #3F28BF;
+
 }
 
-header h1{
+ h1{
+    padding: 20px;
     text-align: center;
-    font-weight: bold;
 }
+.material-symbols-outlined {
+
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    padding:10px;
+    display:block;
+    text-align: center;
+
+    
+  }
+  .material-symbols-outlined:hover{
+      background-color:#CCF380;
+      text-shadow: 1px 1px 1px #231668;
+      cursor: pointer;
+      
+  }
+  .material-symbols-outlined:active{
+    background-color: #ed39db;
+  }
+
 
 menu{
     display: none;
 }
 menu ul{
     list-style-type: none;
-    
+
 }
+
 
 menu a {
     text-decoration: none;
@@ -58,15 +65,17 @@ menu a {
     color:whitesmoke;
     text-shadow: 1px 1px 3px #3622A2;
     text-align: center;
-    border-top:0.5px solid #9cba61
+    
+    border-radius: 10px;
 }
 
 menu ul :hover{
-    background-color: #472DD5;
+    background-color: #ed39db;
+    border-radius: 10px;
 }
 
 menu ul :active{
-    background-color: #ed39db
+    background-color:  #472DD5
 }
 main{
     width:90vw;
@@ -90,4 +99,8 @@ main>article>p {
     text-indent: 40px;
     line-height: 1.3em;
     
+}
+
+footer{
+    background-color: #ed39db;
 }
