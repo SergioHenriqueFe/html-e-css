@@ -45,7 +45,7 @@
         background-image:url(../imagens/back-tv.jpg);
     }
     #tv{display:block}
-    #tablet, #phone,#pc {display:none;}
+    #tablet, #phone,#pc  {display:none;}
     
 
 }
