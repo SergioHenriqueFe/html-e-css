@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* --> Estilo para impressora <-- */
+
+*{
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}   
+menu{
+    display: none;
+}
+
+article::after{
+    content: 'teste: esse artigo foi retirado do meu site';
+}
