@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* --> Para as outras versões <-- */
+/* --> Typical Device Break-point <--
+---------------------------------------
+    Telas pequenas : até 600px;
+    Telas grandes: acima de 1201px
+    Celular: 600px até 768px;
+    Tablet: 769px até 992px;
+    Destop: 993px até 1200px
+
+*/
+
+/*impressora*/
+
+@media print{
+
+}
+
+/*tablet*/
+@media screen and (min-width:768px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #tablet{
+        display: block;
+    }
+    #phone{
+        display: none;
+    }
+}
+
+/*Destop*/
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #tablet, #phone {display:none;}
+    #pc{display:block;}
+}
+
+/*Telas grandes*/
+@media screen and (min-width:1200px){
+    body{
+        background-image:url(../imagens/back-tv.jpg);
+    }
+    #tv{display:block}
+    #tablet, #phone,#pc {display:none;}
+    
+
+}

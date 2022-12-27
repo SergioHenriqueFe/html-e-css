@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* --> Versão Mobi- First <-- */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.3em;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    
+    background-color: #0027256d;
+    border-radius: 20px;
+    width: 90vw;
+    margin:auto;
+    padding:20px;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px  rgb(24, 25, 24);
+}
+img{
+    display: block;
+    margin: auto;
+}
+.aparelhos{
+    display: none;
+}
+#phone{
+    display:block;
+}
+/*#phone{ display: block;}
+#tablet{display:none;}
+#pc{display:none;}
+#print{display:none;}
+#tv{display:none}*/
